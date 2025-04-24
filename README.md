@@ -1,119 +1,136 @@
-### TATool – MERN Stack TA Management Application
+
+---
+
+#### TA Tool – MERN Stack TA Management Application
 
 This is a full-stack TA management tool built using the **MERN stack (MongoDB, Express.js, React, Node.js)**. It enables seamless management of candidates, user authentication, and overall TA workflows.
 
 ---
 
-### 🌐 Live Preview
+## 🌐 Live Preview
 
 - **Backend:** Runs locally at `http://127.0.0.1:5003`
 
-
+---
 
 ## 🚀 Getting Started
 
 ### 🔹 Clone the Repository
 
-git clone https://github.com/your-username/hrtool.git
-cd 
+```bash
+git clone https://github.com/katreddy-bit/candidex.gitgit clone https://github.com/katreddy-bit/candidex.git
+cd candidex
+```
 
-🧩 Backend Setup
-Step 1: Navigate to the backend folder
+### 🧩 Backend Setup
 
-cd Candidex_BE
+1. Navigate to the backend folder:
 
-Step 2: Enter Npm Install
+    ```bash
+    cd Candidex_BE
+    ```
 
-npm install
+2. Install dependencies:
 
-Step 3: Create a .env file in the server/ folder env
+    ```bash
+    npm install
+    ```
 
-PORT=5003
-REACT_APP_API_URL=http://127.0.0.1:5003
-MONGO_URI=mongodb+srv://sravindra:oLgx02tlEyMIEo8q@cluster0.9gspz.mongodb.net/HRTool?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=your_jwt_secret
-SESSION_SECRET=SECRET_SRC
+3. Create a `.env` file in the `server/` folder:
 
+    ```
+    PORT=5003
+    REACT_APP_API_URL=http://127.0.0.1:5003
+    MONGO_URI=mongodb+srv://sravindra:oLgx02tlEyMIEo8q@cluster0.9gspz.mongodb.net/HRTool?retryWrites=true&w=majority&appName=Cluster0
+    JWT_SECRET=your_jwt_secret
+    SESSION_SECRET=SECRET_SRC
+    ```
 
+4. Start the backend server:
 
-Step 4: Start the backend server
+    ```bash
+    npm run dev
+    ```
 
-npm run dev
+---
 
+### 🎨 Frontend Setup
 
-🎨 Frontend Setup
+1. Navigate to the frontend folder:
 
+    ```bash
+    cd Candidex_FE
+    ```
 
-Step 1: Navigate to the frontend folder
+2. Install dependencies:
 
-cd Candidex_FE
+    ```bash
+    npm install
+    ```
 
-Step 2: Install dependencies
+3. Create a `.env` file in the `client/` folder:
 
-npm install
+    ```
+    VITE_API_URL=http://127.0.0.1:5003
+    VITE_SERVER_URL=http://127.0.0.1:5003
+    ```
 
-Step 3: Create a .env file in the client/ folder
+4. Start the frontend development server:
 
-VITE_API_URL=http://127.0.0.1:5003
-VITE_SERVER_URL=http://127.0.0.1:5003
+    ```bash
+    npm run dev
+    ```
 
+---
 
-Step 4: Start the frontend development server
+## ✅ Features
 
-npm run dev
+- 🔐 **User Authentication** (JWT-based)
+- 📋 **Candidate Data Entry and Tracking**
+- 📊 **Dashboards and Candidate Status Views**
+- 👤 **Role-based Access Control** (Admin / Team Leader / Team Member)
+- 🧪 **REST API with secure sessions**
 
+---
 
+## ⚙️ Technologies Used
 
-✅ Features
-🔐 User Authentication (JWT-based)
+- **Frontend:** React, Vite, TailwindCSS, Axios
+- **Backend:** Node.js, Express
+- **Database:** MongoDB with Mongoose
+- **Authentication:** JSON Web Tokens (JWT), Sessions
+- **Deployment:** Netlify (Frontend), Localhost (Backend)
 
-📋 Candidate Data Entry and Tracking
+---
 
-📊 Dashboards and Candidate Status Views
+## 🤝 Contributing
 
+1. Fork the repository
+2. Create a feature branch:
 
-👤 Role-based Access Control (Admin / TEam Leader / Team Member)
+    ```bash
+    git checkout -b feature-name
+    ```
 
+3. Make your changes and commit them
+4. Push to your branch:
 
-🧪 REST API with secure sessions
+    ```bash
+    git push origin feature-name
+    ```
 
+5. Open a Pull Request
 
-⚙️ Technologies Used
-Frontend: React, Vite, TailwindCSS, Axios
+---
 
-Backend: Node.js, Express
-Backend: Node.js, Express
+## 👤 Author
 
-Database: MongoDB with Mongoose
+Made with 💻 by Shiva Kumar Reddy & Ravindra
 
-Authentication: JSON Web Tokens (JWT), Sessions
+---
 
-Deployment: Netlify (Frontend), Localhost (Backend)
+## 📃 License
 
-
-🤝 Contributing
-
-Fork the repository
-
-Create a feature branch (git checkout -b feature-name)
-
-Make your changes and commit them
-
-Push to your branch (git push origin feature-name)
-
-Open a Pull Request
-
-
-👤 Author
-Made with 💻 by Shiva Kumar Reddy &  Ravindra
-
-📃 License
 This project is licensed under the MIT License.
 
-
-
-
-
-
-
-
+---
