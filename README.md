@@ -1,7 +1,7 @@
 
 ---
 
-#### TA Tool – MERN Stack TA Management Application
+## TA Tool – MERN Stack TA Management Application
 
 This is a full-stack TA management tool built using the **MERN stack (MongoDB, Express.js, React, Node.js)**. It enables seamless management of candidates, user authentication, and overall TA workflows.
 
